@@ -14,6 +14,7 @@
 		042589711DF66707000135A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0425896F1DF66707000135A0 /* LaunchScreen.storyboard */; };
 		0425897C1DF66707000135A0 /* TipsterzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425897B1DF66707000135A0 /* TipsterzTests.swift */; };
 		042589871DF66707000135A0 /* TipsterzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042589861DF66707000135A0 /* TipsterzUITests.swift */; };
+		043006BC1DF7B003000E0DB6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043006BB1DF7B003000E0DB6 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		042589821DF66707000135A0 /* TipsterzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042589861DF66707000135A0 /* TipsterzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsterzUITests.swift; sourceTree = "<group>"; };
 		042589881DF66707000135A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043006BB1DF7B003000E0DB6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				042589661DF66707000135A0 /* AppDelegate.swift */,
 				042589681DF66707000135A0 /* ViewController.swift */,
 				0425896A1DF66707000135A0 /* Main.storyboard */,
+				043006BB1DF7B003000E0DB6 /* SettingsViewController.swift */,
 				0425896D1DF66707000135A0 /* Assets.xcassets */,
 				0425896F1DF66707000135A0 /* LaunchScreen.storyboard */,
 				042589721DF66707000135A0 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				042589691DF66707000135A0 /* ViewController.swift in Sources */,
 				042589671DF66707000135A0 /* AppDelegate.swift in Sources */,
+				043006BC1DF7B003000E0DB6 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				0425898D1DF66707000135A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0425898E1DF66707000135A0 /* Build configuration list for PBXNativeTarget "TipsterzTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				042589901DF66707000135A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042589911DF66707000135A0 /* Build configuration list for PBXNativeTarget "TipsterzUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				042589931DF66707000135A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
