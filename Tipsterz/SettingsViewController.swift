@@ -2,7 +2,7 @@
 //  SettingsViewController.swift
 //  Tipsterz
 //
-//  Created by mac on 12/6/16.
+//  Created by mac on 12/17/16.
 //  Copyright © 2016 Muhammad U Khokhar. All rights reserved.
 //
 
@@ -10,6 +10,8 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBOutlet weak var SettingsSegment: UISegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +23,14 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+
+    
+    
+    
+    @IBAction func DefaultPercentage(_ sender: Any) {
+        let defaults = UserDefaults.standard
+        defaults.set(SettingsSegment.selectedSegmentIndex, forKey: "SettingSegment")
+    }
 
     /*
     // MARK: - Navigation
