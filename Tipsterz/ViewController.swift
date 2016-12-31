@@ -53,6 +53,8 @@ class ViewController: UIViewController {
         let total = bill + tip
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        
+        defaults.set(tipControl.selectedSegmentIndex, forKey: "SettingSegment2")
     }
     
     override func viewDidAppear(_ animated: Bool) {
